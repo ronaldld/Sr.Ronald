@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+     <header>
+        <nav class="nav-bar1">
+            <div class="logo">
+                <h1>Fans do Henrique</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                   
+                    
+                </ul>
+                
+            </div>
+            
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+            
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./img/menu_white_36dp.svg" alt=""></button>
+            </div>
+            
+                    </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projeto</a></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></a></li>
+
+                    
+                </ul>
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+
+            </div>
+            
+
+
+
+     </header>
+     <main>
+        <div class="container-enveloper">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Fans do Henrique.</strong>
+                            <p>Mileny Pintinha;
+                            <br>Bia Molambo;
+                            <br> Jurema vulgo micro-ondas;
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="heart"></div>
+            </div>
+        </div>   
+        <div class="text-title">
+            <div class="text1">
+                <strong>
+                    <h4>Henrique</strong></h4>: como de praxe demostrar uma capacidade além do normal.
+                    <br> &nbsp; Obtendo diversos discípulo e fans
+                   <br>  &nbsp;Por Exemplo:
+                    <br> &nbsp; Mileny Pintinha; 
+                    <br> &nbsp; Bia Molanbo; 
+                    <br> &nbsp; Jurema vulgo micro-ondas; 
+            </div>
+        
+        </div> 
+        <div class="content">
+
+            <div class="slides">
+    
+                <input class="input" type="radio" name="slide" id="slide1" checked>
+                <input class="input" type="radio" name="slide" id="slide2">
+                <input class="input" type="radio" name="slide" id="slide3">
+                <input class="input" type="radio" name="slide" id="slide4">
+                <input class="input" type="radio" name="slide" id="slide5">
+    
+    
+                <div class="slide s1">
+                    <img class="main-png" src="./assets/img.jpg" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img class="main-png" src="./assets/img.jpg" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img class="main-png" src="./assets/img 2.jpeg" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img class="main-png" src="./assets/img.jpg" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img class="main-png" src="./assets/img/img3.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+    
+        </div>
+    
+    
+
+              
+    
+    
+        <script>
+            const envelope = document.querySelector('.envelope-wrapper');
+            envelope.addEventListener('click', () => {
+                envelope.classList.toggle('flap');
+            });
+        </script>
+    
+     </main>
+    <script src="main.js"></script>
+
+    
+ <script src="main1.js"></script>
+</body>
+</html>
