@@ -1,134 +1,50 @@
- *{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
- header{
-    background-color: #24252A;
-    box-shadow: 0px 3px #464646;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
 
- }
- .nav-bar1 { 
-  
-    display: flex;
-    justify-content:space-between ;
-    padding: 1.5rem 6rem;
- }
- .logo {
+.nav-bar {
+    height: 70px;
+    width: 100vw;
+    background-color: black;
     display: flex;
     align-items: center;
- }
- .logo h1{
-    color: white;
+   justify-content: center;
+   
 
- }
- .nav-list{
+}
+.logo-texto {
+    color: white;
+}
+.logo {
+    color: white;
+}
+
+main {
+    display: flex;
+}
+.container-1 {
     display: flex;
     align-items: center;
- }
- .nav-list ul{
+    justify-content: space-around;
+    padding: 60px;
+    
+
+}
+.title {
     display: flex;
-    justify-content: center;
-    list-style-type: none;
- }
- .nav-item {
-    margin: 0 15px;
- }
- .nav-link {
-    text-decoration: none;
-    font-size: 1.15rem;
-    color: white;
-    font-weight: 400;
- }
- .login-button button {
-   border: none;
-   background-color: #0187a7;
-   padding: 10px 15px;
-   border-radius: 5px;
+   flex-direction: column;
+   padding: 80px;
 }
-.login-button button a {
-   text-decoration: none;
-   color: white;
-   font-weight: 500;
 
-}
-.mobile-menu-icon {
-   display: none;
-}
-.mobile-menu {
-   display: none;
-
-}
-@media screen and (max-width: 730px) {
-   .nav-bar1 {
-      align-items: center;
-      padding: 1.5rem;
-   }
-   .logo {
-      margin-left: 200px;
-   }
-   .nav-item {
-      display: none;
-   }
-   .login-button{
-      display: none;
-   }
-   .mobile-menu-icon {
-      display: block;
-   }
-   .mobile-menu-icon button{
-      background-color: transparent;
-      border: none;
-      cursor: pointer;
-   }
-   .mobile-menu ul {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      padding-bottom: 1rem;
-   }
-   .mobile-menu .nav-item {
-      display: block;
-      padding-top: 1.2rem;
-
-   }
-   .mobile-menu .login-button {
-      display: block;
-      padding: 1rem 2rem;
-   }
-   .mobile-menu .login-button button {
-      width: 100%;
-   }
-   .open {
-      display: block;
-      background-color: red;
-   }
-   .content {
-      width: 10px;
-      height: 15px;
-      bottom: 300px;
-      margin-left: 50px;
-      display: flex;
-      align-items: center;
-      
-     
-   }
-
-   .container-enveloper {
-      position: relative;
-      margin-top: 30px;
-      margin-left: 100px;
-      display: flex;
-      align-items: center;
-   }
-   .text-title {
-      display: flex;
-      margin-left: 150px;
-      align-items: center;
-      font-size: medium;
-   }
-  
-
-
-  
+.main-menu {
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    flex-direction: row;
 }
